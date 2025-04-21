@@ -1,36 +1,36 @@
 
 
-import Img1 from '../../Image/Img1.jpg';
+import Img1 from '../../Image/Img1.jpeg';
 import Img2 from '../../Image/Img2.jpg';
 import Img3 from '../../Image/Img3.jpg';
-import Img4 from '../../Image/Img4.jpg';
 import Img5 from '../../Image/Img5.jpg';
 import Img6 from '../../Image/Img6.jpg';
-import Img7 from '../../Image/Img7.jpg';
 import Img8 from '../../Image/Img8.jpeg';
 import Img9 from '../../Image/Img9.jpeg';
 import Img10 from '../../Image/Img (1).jpeg';
 import Img11 from '../../Image/Img (2).jpeg';
-import Img12 from '../../Image/Img (3).jpeg';
-import Img13 from '../../Image/Img (4).jpeg';
-import Img14 from '../../Image/Img (5).jpeg';
+import Img12 from '../../Image/Img15.jpeg';
+import Img14 from '../../Image/Img9.jpeg';
+import Img15 from '../../Image/Img11.jpeg';
+import Img18 from '../../Image/Img (5).jpeg';
+import Img19 from '../../Image/Img14.jpeg';
 import Image from 'next/image';
 
 const images = [
-  Img8,
-  Img5,
   Img1,
+  Img15,
+  Img19, 
   Img3,
-  Img4,
   Img2,
+  Img5,
+  Img8,
   Img6,
-  Img7,
   Img9,
   Img10,
   Img12,
   Img11,
-  Img13,
-  Img14
+  Img14,
+  Img18
 ];
 
 export default function GalleryPage() {

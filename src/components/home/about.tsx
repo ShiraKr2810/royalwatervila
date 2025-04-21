@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import The_Place from '../../Image/The_Place.jpg'
+import The_Place from '../../Image/The_Place.jpeg'
 export function About() {
   return (
     <section className="py-16 bg-gray-50">
