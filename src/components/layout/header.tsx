@@ -22,7 +22,7 @@ export function Header() {
         {/* Phone number */}
         <div className="flex items-center text-dark-light">
           <Phone className="w-4 h-4 ml-1" />
-          <span className="text-s">052-289-6679</span>
+          <span className="text-xs">052-289-6679</span>
         </div>
 
         {/* Mobile menu button */}

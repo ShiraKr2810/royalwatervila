@@ -34,7 +34,7 @@ export function About() {
 
             <div className="flex justify-center md:justify-end">
               <Button className="bg-gold hover:bg-gold-dark text-white font-almoni">
-                <Link href="/prices">למחירים והזמנות</Link>
+                <Link href="https://api.whatsapp.com/send?phone=972522896679">למחירים והזמנות</Link>
               </Button>
             </div>
 

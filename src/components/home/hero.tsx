@@ -35,7 +35,7 @@ export function Hero() {
       </div>
 
       {/* {Social Icons} */}
-      <div className="absolute right-6 top-1/4 transform -translate-y-1/2 z-20 flex flex-col space-y-4">
+      <div className="fixed right-6 top-1/4 transform -translate-y-1/2 z-20 flex flex-col space-y-4">
         <a
           href="https://m.facebook.com/61562746949692#"
           target="_blank"
