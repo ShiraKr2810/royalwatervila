@@ -3,7 +3,8 @@
 import Img1 from '../../Image/Img1.jpeg';
 import Img2 from '../../Image/Img2.jpg';
 import Img3 from '../../Image/Img3.jpg';
-import Img5 from '../../Image/Img5.jpg';
+import Img4 from '../../Image/Img4.jpeg'
+import Img5 from '../../Image/Img5.jpeg';
 import Img6 from '../../Image/Img6.jpg';
 import Img8 from '../../Image/Img8.jpeg';
 import Img9 from '../../Image/Img9.jpeg';
@@ -24,6 +25,7 @@ const images = [
   Img2,
   Img5,
   Img8,
+  Img4,
   Img6,
   Img9,
   Img10,
