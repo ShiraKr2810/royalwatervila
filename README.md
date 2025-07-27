@@ -1,7 +1,7 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 # Royal Water Villa 🌊🏡  
-אתר תדמית עבור Royal Water Villa – וילת נופש יוקרתית בצפון הארץ.
+אתר תדמית עבור Royal Water Villa – וילת נופש יוקרתית במרכז הארץ.
 
 ## 🔗 קישור לאתר  
 [https://royalwatervilla.co.il](https://royalwatervilla.co.il)
