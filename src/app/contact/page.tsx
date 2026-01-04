@@ -9,7 +9,14 @@ export default function Contact() {
         event.preventDefault();
         const formData = new FormData(event.currentTarget); // event.target → event.currentTarget (better typing)
 
-        formData.append("access_key", "1c0f058f-4d37-4ef3-9bc3-ab34fd3d448e");
+        const accessKey = process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY;
+        if (!accessKey) {
+            console.error("Access key is missing!");
+            setStatus("An error occurred. Please try again.");
+            return;
+        }
+
+        formData.append("access_key", accessKey);
         console.log("sending")
         const object = Object.fromEntries(formData);
         const json = JSON.stringify(object);
